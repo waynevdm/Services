@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TheRoom.Services.Data\TheRoom.Services.Data.csproj" />
+    <ProjectReference Include="..\TheRoom.Services.Domain\TheRoom.Services.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
